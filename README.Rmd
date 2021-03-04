@@ -1,0 +1,41 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# ggicon
+
+<!-- badges: start -->
+[![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
+[![CRAN status](https://www.r-pkg.org/badges/version/ggicon)](https://CRAN.R-project.org/package=ggicon)
+<!-- badges: end -->
+
+The ggicon package allows you to visualise data with icons in ggplot2. It uses 
+icons from the [icon](pkg.mitchelloharawild.com/icon/) package as the `icon`
+aesthetic in `geom_icon()`.
+
+## Installation
+
+<!-- You can install the released version of ggicon from [CRAN](https://CRAN.R-project.org) with: -->
+
+<!-- ``` r -->
+<!-- install.packages("ggicon") -->
+<!-- ``` -->
+
+You can install the **development** version from
+[GitHub](https://github.com/mitchelloharawild/ggicon)
+
+```{r gh-installation, eval = FALSE}
+# install.packages("remotes")
+remotes::install_github("mitchelloharawild/ggicon")
+```
